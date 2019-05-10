@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'kollektifregular';
+    src: url('../kollektif/kollektif-webfont.woff2') format('woff2'),
+         url('../kollektif/kollektif-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'kollektifregular';
+    background-color: #f8f6f6;
+    height: 2900px;
+}
+
+.project_header {
+    font-size: 24px;
+    color: #95989A;
+    height: 120px;
+    margin-left: 78px;
+}
+
+.nav_home {
+  float: left;
+  font-size: 24px;
+  color: #95989A;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+
+.nav_sdzpostcard {
+    float: left;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #95989A;
+  }
+
+.nav_line {
+    width: 1112.67px;
+    height: 1px;
+    background-color: #95989A;
+    float: left;
+    margin-top: 20px;
+}
+
+.project_body {
+    height: 2850px;
+}
+
+.project_abstract {
+    width: 568px;
+    height: 160px;
+    font-size: 17px;
+    color: #95989A;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 33px;
+    margin-bottom: 62px;
+    margin-top: 14px;
+}
+
+
+.project_title {
+    font-size: 32px;
+    width: 737px;
+    height: 82px;
+    text-align: left;
+    display: block;
+    margin-left: 274px;
+    margin-bottom: 19px;
+    margin-right: auto;
+    color: #3f3e3e;
+    font-weight: 900; 
+}
+
+.sdzpostcard_front {
+    width: 711.5px;
+    height: 338px;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body_section.goal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 712px;
+    color: #6C6C6C;
+    margin-top: 27px;
+    height: 136px;
+}
+
+.body_section.priorknowledge {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 712px;
+    color: #6C6C6C;
+    margin-top: 27px;
+}
+
+.body_section.problemssolutions {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 712px;
+    color: #6C6C6C;
+    margin-top: 27px;
+}
+
+.body_section.proof {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #6C6C6C;
+    margin-top: 27px;
+}
+
+.project_subtitle {
+    font-size: 32px;
+    color: #4E4E4E;
+    width: 712px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtitle_description {
+    color: #6C6C6C;
+    font-size: 17px;
+    line-height: 33px;
+    width: 712px;
+    float: left;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.priorknowledge {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 712px;
+    color: #6C6C6C;
+    margin-top: 19px;
+}
+
+.pink {
+    color: #FF243D;
+    background: none;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+
+.sdzpostcard_indesign {
+    width: 546px;
+    height: 768px;
+    float: left;
+    margin-top: 19px;
+}
+
+.sdzpostcard_indesign.exterior {
+    margin-left: 89px;
+}
+
+/* RESPONSIVE DESIGN*/
+@media screen and (min-width:1920px){
+    .project_header {
+        height: 175px;
+        margin-left: 99px;
+        margin-top: 25px;
+    }
+
+    .nav_home {
+        font-size: 45px;
+        color: #95989A;
+        margin-right: 10px;
+        margin-top: 40px;
+    }
+
+    .nav_sdzpostcard {
+        font-size: 45px;
+        color: #95989A;
+        margin-right: 10px;
+        margin-top: 40px;
+    }
+
+
+    .nav_line{
+        width: 1477.83px;
+        float: left;
+    }
+
+    .project_abstract{
+        font-size: 28px;
+        width: 720px;
+        line-height: 48px;
+        height: 300px;
+    }
+
+    .project_title {
+        font-size: 45px;
+        width: 1047px;
+        margin-right: auto;
+        margin-left: 463px;
+        margin-bottom: 60px;
+    }
+
+    .sdzpostcard_front {
+        width: 967.5px;
+        height: 460px;
+    }
+
+    .body_section.goal {
+        width: 468px;
+        margin-top: 27px;
+        height: 200px;
+        margin-left: 464px;
+    }
+
+    .project_subtitle {
+        font-size: 45px;
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 1300px;
+    }
+
+    .subtitle_description {
+        font-size: 28px;
+        width: 1000px;
+        line-height: 48px;
+    }
+
+    .body_section.priorknowledge{
+        margin-left: 464px;
+        height: 1000px;
+    }
+
+    .body_section.problemssolutions {
+        margin-left: 464px;
+        height: 700px;
+    }
+
+    .body_section.proof {
+        margin-left: 464px;
+        margin-right: 0px;
+    }
+
+    .postcard_images {
+        width: 100%;
+    }
+
+    .sdzpostcard_indesign.exterior {
+        margin-left: -235px;
+        float: left;
+    }
+
+    .sdzpostcard_indesign {
+        width:711.24px;
+        height: 1000.56px;
+        float: left;
+        margin-bottom: 60px;
+    }
+
+
+}

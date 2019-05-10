@@ -1,0 +1,889 @@
+@font-face {
+    font-family: 'kollektifregular';
+    src: url('../kollektif/kollektif-webfont.woff2') format('woff2'),
+         url('../kollektif/kollektif-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*, *:before, *:after {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html, body {
+    height: 100%;
+    background-color:white;
+    margin: 0;  
+    height:900px;
+    margin: 0px auto 0px auto;
+    font-family: 'kollektifregular';
+}
+
+
+.indesign_proof_box {
+    margin: 0 auto; 
+    width: 1049px;
+}
+
+.sdzpostcard_indesign.exterior {
+    margin-right: 26px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 40px;
+  margin-bottom: 39px;
+  padding-left: 7%;
+}
+
+h1 {
+  padding: 30px 0;
+  font: 1.5em 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+nav {
+  background-color: white;
+  box-shadow: -5px -1.5px 12px #000000;
+  width: 100%;
+  z-index: 40;
+  font-size: 24px;
+  position: fixed;
+}
+
+ul a {
+  padding-right: 23px !important; /* important overrides media queries */
+  font-size: 24px;
+  color: #464646;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav li {
+  float: left;
+}
+
+
+nav li:last-child {
+  border-right: none;
+}
+
+.body {
+    overflow-x:hidden;
+}
+
+.header {
+    height: 102px;
+    background-color: white;
+    box-shadow: -5px -1.5px 12px #000000;
+    width: 100%;
+    z-index: 40;
+    font-size: 24px;
+    position: fixed;
+}
+
+.images_slider {
+        width: 100%;
+}
+
+
+.content {
+    width: 100%;
+    padding-left: 90px;
+    padding-top: 49px;
+    background-color: white;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #464646;
+}
+
+a:hover {
+  color: #FF243D;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+
+.socmed {
+  height: 60px;
+  float: left;
+  margin-top:  53px;
+  padding-right: 200px;
+  margin-left: 59px;
+  margin-bottom: 34px;
+}
+
+.socmed_images {
+  float: right;
+  color: #818181;
+  margin-left: 25px;
+}
+
+.images_slider {
+    width: 900px;
+}
+
+.socmed_images:hover {
+  color: #FF243D;
+    -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.actualbanner {
+    width: 100%;
+    margin-top: 95px;
+    position: absolute;
+}
+
+.actualoverbanner {
+    width: 100%;
+    margin-top: 95px;
+    position: relative;
+}
+
+.project_banner_info {
+    width: 34%;
+    height: 355px;
+    background-color: #2BBEFF;
+    margin-top: -355px;
+    float: right;
+}
+
+.banner {
+    height: auto;
+    padding-top: 0px;
+}
+
+
+.banner_text {
+    font-size: 47px;
+    margin-top: -24%;
+    width: 50%;
+    padding-left: 8%;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    line-height: 1.4;
+    color: white;
+    z-index: 10;
+    font-weight: 700;
+}
+
+.project_banner_info_text {
+    width: 317px;
+    font-size: 21px;
+    margin-top: 77px;
+    margin-right: 50px;
+    line-height:1.8;
+    color: white;
+    float: right;
+
+}
+
+
+.sub_title {
+    font-size: 35px;
+    color: #464646;
+    font-weight: 700;
+    height: 48px;
+}
+
+.sub_title_line {
+    background-color: #F0F0F0;
+    height: 6px;
+    width: 143px;
+    float: left;
+}
+
+.sub_title_line.idea {
+    width: 73px;
+}
+
+.paragraph {
+    max-width: 660px;
+    line-height: 2;
+    color: #464646;
+    
+    margin-top: 12px;
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+
+
+.measurements {
+    width: 100%;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+    background-color: #E5E5E5;
+}
+
+.measurements_box {
+    margin: 0 auto; 
+}
+
+.measurements_title {
+    color: #525252;
+    font-size: 29px;
+    padding-top: 0px;
+}
+
+
+.duration_image {
+    width: 49.09px;
+}
+
+
+.duration_description {
+    width: 166px;
+    line-height: 1.4;
+    font-size: 18px;
+    color: #525252;
+}
+
+.measure_textbox {
+    float: left;
+    width: 204px;
+    text-align: center;
+    padding-left: 2%;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  width: 900px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 29px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 11px;
+  width: 11px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.indesign_proof {
+    width: 100%;
+    background-color: #E5E5E5;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-top: 2%;
+}
+
+.content.idea {
+    height: auto;
+}
+
+.sdzpostcard_indesign {
+    height: 700px;;
+    float: left;
+    margin-top: 19px;
+    margin-bottom: 49px;
+}
+
+.indesign_text {
+    font-size: 28px;
+    margin-top: 61px;
+    color: #525252;
+}
+
+.paragraph.idea {
+    margin-bottom: 20px;
+}
+
+.slider_bar {
+    margin-left: 394px;
+}
+
+.paragraph.slide {
+    margin-top: -19px;
+}
+
+.measurements_box.hideme {
+    opacity: 0;
+}
+
+
+
+@media screen and (min-width: 1920px) {
+    .socmed_images {
+        height: 55px;
+        margin-bottom: 80px;
+        margin-right: 16px;
+    }
+
+    ul a {
+        font-size: 38px;
+        margin-right: 20px;
+    }
+
+    nav li {
+        margin-top: 11px;
+    }
+
+    .actualbanner {
+        margin-top: 115px;
+    }
+
+    .project_banner_info {
+        width: 33%;
+    }
+
+
+    .project_banner_info_text {
+        width: 77%;
+    }
+
+    .indesign_text {
+        font-size: 36px;
+    }
+
+    .sdzpostcard_indesign {
+        height: 950px;
+        margin-top: 40px;
+    }
+
+    .indesign_proof {
+        height: auto;
+    }
+
+
+    .banner_text {
+        font-size: 70px;
+    }
+
+    .content {
+        padding-top: 3%;
+    }
+
+    .sub_title {
+        font-size: 50px;
+        height: 77px;
+    }
+
+    .sub_title_line {
+        width: 244px;
+        height: 10px;
+    }
+
+    .sub_title_line.idea {
+        width: 120px;
+    }
+
+    .indesign_text {
+        font-size: 43px;
+    }
+
+    .paragraph {
+        font-size: 34px;
+        width: 900px;
+        margin-top: 29px;
+    }
+
+
+    .measurements_title {
+        font-size: 46px;
+        margin-right: 66px;
+    }
+
+    .measurement_box {
+        margin: 0px;
+        padding-left: 302px;
+        margin-top: 50px;
+    }
+
+   .duration_image {
+        width: 83.09px;
+        margin-right: 63px;
+    }
+
+
+    .paragraph.idea {
+        margin-bottom: 35px;
+    }
+
+    .prev, .next {
+        font-size: 87px;
+        margin-top: -66px;
+    }
+
+    .prev {
+        margin-left: 30px;
+    }
+
+    .duration_description {
+        font-size: 29px;
+        width: 250px;
+    }
+
+    .measure_textbox {
+        width: 338px;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+
+    .banner_text {
+        font-size: 43px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1050px) {
+
+    .indesign_proof_box {
+        width: 519px;
+        margin-left: 39px;
+    }
+
+
+    .images_slider {
+        width: 600px;
+    }
+
+    .slideshow-container {
+        width: 600px;
+    }
+
+
+
+    .sdzpostcard_indesign.exterior {
+        margin-bottom: 17px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1048px){
+    .measure_textbox {
+        padding-left: 1%;
+        width: 173px;
+    }
+
+    .duration_description {
+        font-size: 16px;
+    }
+
+    .duration_image {
+        width:50.09px;
+    }
+
+    .measurement_title {
+        font-size: 27px;
+    }
+
+    .indesign_text {
+        margin-top: 44px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 938px){
+
+    ul {
+        padding-left: 0px;
+    }
+
+    .header {
+        height: 84px;
+    }
+
+
+  .hamburger {
+    width: 138px;
+    height: 85px;
+    padding: 29px;
+    display: block;
+  }
+
+  .line {
+    border-bottom: 4px solid #C0C0C0;
+    width: 35px;
+    height: 5px;
+    margin-bottom: 6px;
+  }
+  
+  .line:last-child {
+    margin-bottom: 0;
+  }
+
+  nav li {
+    width: 100%;
+  }
+  
+  .menu {
+    height: 0;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+  
+  .slide-down {
+    background-color: white;
+    height: 192%;
+  }
+
+  .actualoverbanner {
+      margin-top: 84px;
+  }
+
+  .actualbanner {
+      margin-top: 79px;
+  }
+
+  li {
+      text-align: center;
+      margin-bottom: 20px;
+      color:white;
+  }
+
+  ul {
+      margin-top: 0px;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 750px) {
+
+    .content {
+        padding-left: 7%;
+    }
+
+
+    .banner_text {
+        font-size: 40px;
+    }
+
+    .content {
+        padding-left: 41px;
+    }
+}
+
+
+
+@media screen and (max-width: 730px) {
+    .measurements_box {
+        float: left;
+    }
+
+
+
+    .content.idea {
+        margin-top: 20px;
+    }
+
+    .prev {
+        margin-left: 9px;
+    }
+
+
+
+
+
+
+    
+}
+
+@media only screen and (max-width: 730px) {
+    .banner_text {
+        font-size: 24px;
+        width: 75%;
+        margin-left: 7%;
+        margin-top: -36%;
+    }
+
+    .paragraph {
+        margin-top: 5px;
+    }
+
+    .measurements_title {
+        font-size: 25px;
+    }
+
+    .duration_image {
+        width: 42.09px;
+    }
+
+    .duration_description {
+        font-size: 14px;
+    }
+
+
+    .measure_textbox {
+        margin-bottom: 29px;
+    }
+
+    .measurements {
+        margin-top: -16px;
+        padding-top: 27px;
+        padding-bottom: 0px;
+    }
+    
+    .next {
+        margin-top: -38px;
+    }
+
+    .prev {
+        margin-left: -6px;
+        margin-top: -38px;
+    }
+
+
+    .indesign_text {
+        font-size: 25px;
+        width: 519px;
+        margin-top: 36px;
+    }
+
+    .content {
+        padding-top: 19px;
+        width:90%;
+    }
+
+
+
+    .sub_title_line {
+        height: 4px;
+    }
+
+    .socmed_images {
+        float: left;
+    }
+
+    .socmed {
+        margin-bottom: 11px;
+        margin-left: 14px;
+    }
+
+    p {
+        margin-top: 9px;
+    }
+
+    .paragraph.slide {
+        margin-bottom: 13px;
+    }
+}
+
+
+
+@media only screen and (max-width: 692px) {
+    .measurements_box {
+        width: 65%;
+    }
+
+    .measurements_box.hideme {
+    opacity: 1;
+    }
+
+
+    .images_slider {
+        width: 370px;
+    }
+
+    .slideshow-container {
+        width: 370px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 622px) {
+    .measurements {
+        margin-top: 66px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 550px) {
+    .paragraph {
+    font-size: 20px;
+    }
+
+
+    .sdzpostcard_indesign {
+        height: 500px;
+    }
+
+    .measurements_box {
+        width: 50%;
+    }
+
+    .measurements {
+        margin-top: 59px;
+    }
+
+    .content {
+        padding-left: 24px;
+        padding-top: 20px;
+        line-height: 1.8;
+    }
+
+    .sub_title {
+        font-size: 29px;
+        height: 46px;
+    }
+
+    .sub_title_line.idea {
+        width: 61px;
+    }
+
+    .sub_title_line {
+        width: 119px;
+    }
+
+}
+
+@media only screen and (max-width: 501px) {
+    .measurements {
+        margin-top: 37px;
+        padding-bottom: 19px;
+    }
+
+}
+
+
+@media only screen and (max-width: 440px) {
+    .measurements {
+        margin-top: 37px;
+        padding-bottom: 3px;
+    }
+
+    .content {
+        margin-top: 6px;
+    }
+
+    .content.idea {
+        padding-top: 0px;
+    }
+
+    p {
+        margin-top: 0px;
+    }
+
+    .indesign_text {
+        font-size: 19px;
+    }
+
+    .indesign_proof_box {
+        margin-left: 18px;
+    }
+
+    .next {
+        font-size: 22px;
+    }
+
+    .prev {
+        margin-right: 0px;
+        margin-left: 0px;
+        font-size: 22px;
+    }
+
+}
+
