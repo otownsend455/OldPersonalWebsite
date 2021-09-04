@@ -1,6 +1,6 @@
 This was my personal website back when I was more orientated as a designer. It displays many of the design projects I’ve done. 
 
-The website was fully designed by myself and most development was independently done as well. 
+The website was fully designed by myself and most code development was independently done as well. 
 
 If you wish to try out the website, follow these steps:
 
