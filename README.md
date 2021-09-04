@@ -9,6 +9,6 @@ If you wish to try out the website, follow these steps:
 
 Alternatively, you can view the screenshot files uploaded to have a glance of certain pages on the website. These are contained in the file website_screenshots. View homepage.pdf to see the homepage screen, SDZ_postcard.pdf to learn about my favourite design project, and design_process.pdf to understand my design proccess. 
 
-Credit must be given to https://www.kunkalabs.com/mixitup/ and https://codepen.io/morganfeeney/pen/qtkKy to help me when constructing several of my animations.
+Credit must be given to https://www.kunkalabs.com/mixitup/ and https://codepen.io/morganfeeney/pen/qtkKy for help with constructing my animations. 
 
 Enjoy! 
